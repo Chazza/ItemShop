@@ -1,0 +1,22 @@
+shops:
+  notEnoughCoins: '&cYou don''t have enough coins to buy this'
+  boughtItem: '&aYou''ve bought an item for %price'
+  
+commands:
+  invalidCommand: '&cCommand not found'
+  noPermission: '&cYou don''t have the permission for execute this command'
+  onlyPlayer: '&cThis command can be executed only by a Player'
+  help:
+    - '&a/itemshop open'
+    - '&a/itemshop open <name>'
+    - '&a/itemshop give <player> <amount>'
+    - '&a/itemshop giveall <amount>'
+  open:
+    shopNotFound: '&cThe shop you''re trying to open doesn''t exist.'
+  give:
+    usage: '&cUsage: /itemshop give <player> <amount>'
+    offlinePlayer: '&cThe player is offline'
+    done: '&aYou gave %coins to %player'
+  giveall:
+    usage: '&cUsage: /itemshop giveall <amount>'
+    done: '&aYou gave %coins to %players players'

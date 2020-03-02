@@ -1,0 +1,33 @@
+inventory:
+  title: 'Armor Shop'
+  rows: 1
+  close-on-buy: false
+
+back-button:
+  material: 'ARROW'
+  data: 0
+  name: '&b&lBack'
+  lore:
+    - 'Go back to the main menu'
+  enchantments: []
+  flags: []
+  row: 1
+  column: 9
+  
+items:
+  'diamond_armor':
+    material: 'DIAMOND_HELMET'
+    data: 0
+    name: '&eDiamond Armor Set'
+    lore:
+      - '&fGet a set of Diamond Armor'
+    enchantments:
+      - 'PROTECTION_ENVIRONMENTAL;5'
+    flags: []
+    amount: 1
+    row: 0
+    column: 1
+    cost: 10
+    buy-commands:
+      - '[CONSOLE] kit diamond_armor %player%'
+      - '[PLAYER] me bought the Diamond Armor set in the /itemshop for %cost% Gold'

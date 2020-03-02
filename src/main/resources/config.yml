@@ -1,0 +1,29 @@
+coinItem:
+  name: '&e&lGold Ingot'
+  lore: 
+    - ''
+    - '&fUse this in the /itemshop'
+  material: GOLD_INGOT
+  data: 0
+  enchantments:
+    - 'DAMAGE_ALL;10'
+  flags:
+    - 'HIDE_ENCHANTS'
+  
+shop-menu:
+  inventory:
+    title: 'Item Shop'
+    rows: 1
+  items:
+    'armor':
+      material: 'DIAMOND_HELMET'
+      data: 0
+      name: '&cArmor Shop'
+      lore:
+        - '&fClick to open the armor shop'
+      enchantments: []
+      flags: []
+      amount: 1
+      row: 0
+      column: 1
+      shop: 'armor'
