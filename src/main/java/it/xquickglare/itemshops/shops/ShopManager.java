@@ -25,8 +25,10 @@ public class ShopManager {
     
     public void enable() {
         File folder = new File(plugin.getDataFolder(), "shops");
-        if (!folder.exists())
+        if (!folder.exists()) {
             folder.mkdir();
+            plugin.saveResource("shops/armor.yml", false);
+        }
 
         for (File file : folder.listFiles())
             loadShop(file.getName().replaceAll("\\.yml", ""));
