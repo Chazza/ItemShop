@@ -1,13 +1,13 @@
-package it.xquickglare.itemshops.shops;
+package io.alerium.itemshops.shops;
 
-import it.xquickglare.itemshops.ItemShopsPlugin;
-import it.xquickglare.itemshops.shops.objects.GUIInfo;
-import it.xquickglare.itemshops.shops.objects.GUIItem;
-import it.xquickglare.itemshops.shops.objects.shops.ShopGUI;
-import it.xquickglare.itemshops.shops.objects.shops.ShopItem;
-import it.xquickglare.itemshops.utils.configuration.ItemBuilder;
-import it.xquickglare.itemshops.utils.configuration.Message;
-import it.xquickglare.itemshops.utils.configuration.YAMLConfiguration;
+import io.alerium.itemshops.ItemShopsPlugin;
+import io.alerium.itemshops.shops.objects.GUIInfo;
+import io.alerium.itemshops.shops.objects.GUIItem;
+import io.alerium.itemshops.shops.objects.shops.ShopGUI;
+import io.alerium.itemshops.shops.objects.shops.ShopItem;
+import io.alerium.itemshops.utils.configuration.ItemBuilder;
+import io.alerium.itemshops.utils.configuration.Message;
+import io.alerium.itemshops.utils.configuration.YAMLConfiguration;
 import lombok.Getter;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;

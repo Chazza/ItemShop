@@ -1,14 +1,12 @@
-package it.xquickglare.itemshops.utils.configuration;
+package io.alerium.itemshops.utils.configuration;
 
 import lombok.Getter;
-import org.apache.commons.io.FileUtils;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;

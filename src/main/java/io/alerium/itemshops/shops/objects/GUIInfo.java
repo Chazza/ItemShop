@@ -1,7 +1,7 @@
-package it.xquickglare.itemshops.shops.objects;
+package io.alerium.itemshops.shops.objects;
 
 import fr.minuskube.inv.SmartInventory;
-import it.xquickglare.itemshops.ItemShopsPlugin;
+import io.alerium.itemshops.ItemShopsPlugin;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

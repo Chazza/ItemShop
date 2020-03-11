@@ -1,4 +1,4 @@
-package it.xquickglare.itemshops.utils.configuration;
+package io.alerium.itemshops.utils.configuration;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;

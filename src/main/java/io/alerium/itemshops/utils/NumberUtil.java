@@ -1,4 +1,4 @@
-package it.xquickglare.itemshops.utils;
+package io.alerium.itemshops.utils;
 
 public final class NumberUtil {
 

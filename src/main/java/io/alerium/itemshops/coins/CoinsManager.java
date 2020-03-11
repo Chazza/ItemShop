@@ -1,7 +1,7 @@
-package it.xquickglare.itemshops.coins;
+package io.alerium.itemshops.coins;
 
-import it.xquickglare.itemshops.ItemShopsPlugin;
-import it.xquickglare.itemshops.utils.configuration.ItemBuilder;
+import io.alerium.itemshops.ItemShopsPlugin;
+import io.alerium.itemshops.utils.configuration.ItemBuilder;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;

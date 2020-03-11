@@ -1,14 +1,14 @@
-package it.xquickglare.itemshops;
+package io.alerium.itemshops;
 
 import fr.minuskube.inv.InventoryManager;
-import it.xquickglare.itemshops.coins.CoinsManager;
-import it.xquickglare.itemshops.commands.GiveAllCommand;
-import it.xquickglare.itemshops.commands.GiveCommand;
-import it.xquickglare.itemshops.commands.OpenCommand;
-import it.xquickglare.itemshops.integrations.PlaceholderAPI;
-import it.xquickglare.itemshops.shops.ShopManager;
-import it.xquickglare.itemshops.utils.commands.Command;
-import it.xquickglare.itemshops.utils.configuration.YAMLConfiguration;
+import io.alerium.itemshops.coins.CoinsManager;
+import io.alerium.itemshops.commands.GiveAllCommand;
+import io.alerium.itemshops.commands.GiveCommand;
+import io.alerium.itemshops.commands.OpenCommand;
+import io.alerium.itemshops.integrations.PlaceholderAPI;
+import io.alerium.itemshops.shops.ShopManager;
+import io.alerium.itemshops.utils.commands.Command;
+import io.alerium.itemshops.utils.configuration.YAMLConfiguration;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;

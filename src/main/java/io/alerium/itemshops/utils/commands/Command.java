@@ -1,7 +1,7 @@
-package it.xquickglare.itemshops.utils.commands;
+package io.alerium.itemshops.utils.commands;
 
-import it.xquickglare.itemshops.ItemShopsPlugin;
-import it.xquickglare.itemshops.utils.configuration.Message;
+import io.alerium.itemshops.ItemShopsPlugin;
+import io.alerium.itemshops.utils.configuration.Message;
 import lombok.RequiredArgsConstructor;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

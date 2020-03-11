@@ -1,4 +1,4 @@
-package it.xquickglare.itemshops.utils.commands;
+package io.alerium.itemshops.utils.commands;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

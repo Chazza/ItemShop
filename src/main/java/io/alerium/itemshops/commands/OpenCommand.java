@@ -1,8 +1,8 @@
-package it.xquickglare.itemshops.commands;
+package io.alerium.itemshops.commands;
 
-import it.xquickglare.itemshops.ItemShopsPlugin;
-import it.xquickglare.itemshops.shops.objects.shops.ShopGUI;
-import it.xquickglare.itemshops.utils.commands.SubCommand;
+import io.alerium.itemshops.ItemShopsPlugin;
+import io.alerium.itemshops.shops.objects.shops.ShopGUI;
+import io.alerium.itemshops.utils.commands.SubCommand;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 

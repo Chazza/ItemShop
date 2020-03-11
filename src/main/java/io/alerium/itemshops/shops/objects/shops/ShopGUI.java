@@ -1,7 +1,7 @@
-package it.xquickglare.itemshops.shops.objects.shops;
+package io.alerium.itemshops.shops.objects.shops;
 
-import it.xquickglare.itemshops.shops.objects.GUIInfo;
-import it.xquickglare.itemshops.shops.objects.GUIItem;
+import io.alerium.itemshops.shops.objects.GUIInfo;
+import io.alerium.itemshops.shops.objects.GUIItem;
 import lombok.Getter;
 
 import java.util.List;

@@ -1,6 +1,6 @@
-package it.xquickglare.itemshops.integrations;
+package io.alerium.itemshops.integrations;
 
-import it.xquickglare.itemshops.ItemShopsPlugin;
+import io.alerium.itemshops.ItemShopsPlugin;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.entity.Player;
 

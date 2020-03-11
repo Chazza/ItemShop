@@ -1,4 +1,4 @@
-package it.xquickglare.itemshops.shops.objects;
+package io.alerium.itemshops.shops.objects;
 
 import fr.minuskube.inv.ClickableItem;
 import fr.minuskube.inv.content.InventoryContents;
