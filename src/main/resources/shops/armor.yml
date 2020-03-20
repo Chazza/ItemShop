@@ -29,5 +29,5 @@ items:
     column: 1
     cost: 10
     buy-commands:
-      - '[CONSOLE] kit diamond_armor %player%'
-      - '[PLAYER] me bought the Diamond Armor set in the /itemshop for %cost% Gold'
+      - '[CONSOLECOMMAND] kit diamond_armor %player_name%'
+      - '[PLAYERCOMMAND] me bought the Diamond Armor set in the /itemshop for %cost% Gold'

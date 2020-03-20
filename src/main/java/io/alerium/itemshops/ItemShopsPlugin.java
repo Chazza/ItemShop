@@ -9,6 +9,7 @@ import io.alerium.itemshops.integrations.PlaceholderAPI;
 import io.alerium.itemshops.shops.ShopManager;
 import io.alerium.itemshops.utils.commands.Command;
 import io.alerium.itemshops.utils.configuration.YAMLConfiguration;
+import io.samdev.actionutil.ActionUtil;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -26,6 +27,8 @@ public class ItemShopsPlugin extends JavaPlugin {
     
     @Getter private CoinsManager coinsManager;
     @Getter private ShopManager shopManager;
+    
+    @Getter private ActionUtil actionUtil;
     
     @Override
     public void onEnable() {
@@ -59,6 +62,8 @@ public class ItemShopsPlugin extends JavaPlugin {
 
         shopManager = new ShopManager();
         shopManager.enable();
+        
+        actionUtil = ActionUtil.init(this);
     }
     
     private void registerCommands() {

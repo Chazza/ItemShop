@@ -47,6 +47,11 @@
             <id>placeholderapi</id>
             <url>http://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
+
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -76,6 +81,13 @@
                     <artifactId>spigot-api</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.GiansCode</groupId>
+            <artifactId>ActionUtil</artifactId>
+            <version>a1266cbbc7</version>
+            <scope>compile</scope>
         </dependency>
         
         <dependency>

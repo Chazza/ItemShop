@@ -35,12 +35,9 @@ public class ShopItem extends GUIItem {
             }
 
             for (String command : buyCommands) {
-                String commandExec = command.substring(command.indexOf("]")).replaceAll("%player%", player.getName()).replaceAll("%cost%", Integer.toString(cost));
+                String commandExec = command.replaceAll("%cost%", Integer.toString(cost));
 
-                if (command.startsWith("[CONSOLE]"))
-                    Bukkit.dispatchCommand(Bukkit.getConsoleSender(), commandExec);
-                else if (command.startsWith("[PLAYER]"))
-                    Bukkit.dispatchCommand(player, commandExec);
+                ItemShopsPlugin.getInstance().getActionUtil().executeActions(player, commandExec);
             }
             
             if (info instanceof ShopGUI && ((ShopGUI) info).isCloseOnBuy())
