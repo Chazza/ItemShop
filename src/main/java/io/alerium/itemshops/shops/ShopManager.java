@@ -19,21 +19,18 @@ import java.util.List;
 public class ShopManager {
     
     private final ItemShopsPlugin plugin = ItemShopsPlugin.getInstance();
+    private final File folder = new File(plugin.getDataFolder(), "shops");
     private final List<ShopGUI> shops = new ArrayList<>();
     
     @Getter private GUIInfo mainGui;
     
     public void enable() {
-        File folder = new File(plugin.getDataFolder(), "shops");
         if (!folder.exists()) {
             folder.mkdir();
             plugin.saveResource("shops/armor.yml", false);
         }
 
-        for (File file : folder.listFiles())
-            loadShop(file.getName().replaceAll("\\.yml", ""));
-        
-        loadMainGui();
+        reload();
     }
 
     /**
@@ -48,6 +45,18 @@ public class ShopManager {
         }
         
         return null;
+    }
+
+    /**
+     * This method reloads all the shops from the config files
+     */
+    public void reload() {
+        shops.clear();
+        
+        for (File file : folder.listFiles())
+            loadShop(file.getName().replaceAll("\\.yml", ""));
+
+        loadMainGui();
     }
 
     /**

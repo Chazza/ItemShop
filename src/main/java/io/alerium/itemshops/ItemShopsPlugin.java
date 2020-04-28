@@ -5,6 +5,7 @@ import io.alerium.itemshops.coins.CoinsManager;
 import io.alerium.itemshops.commands.GiveAllCommand;
 import io.alerium.itemshops.commands.GiveCommand;
 import io.alerium.itemshops.commands.OpenCommand;
+import io.alerium.itemshops.commands.ReloadCommand;
 import io.alerium.itemshops.integrations.PlaceholderAPI;
 import io.alerium.itemshops.shops.ShopManager;
 import io.alerium.itemshops.utils.commands.Command;
@@ -67,10 +68,11 @@ public class ItemShopsPlugin extends JavaPlugin {
     }
     
     private void registerCommands() {
-        getCommand("itemshop").setExecutor(new Command(messages.getMessage("commands.help").format(), Arrays.asList(
+        getCommand("itemshop").setExecutor(new Command(Arrays.asList(
                 new GiveAllCommand(),
                 new GiveCommand(),
-                new OpenCommand()
+                new OpenCommand(),
+                new ReloadCommand()
         )));
     }
     

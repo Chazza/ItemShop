@@ -11,6 +11,7 @@ commands:
     - '&a/itemshop open <name>'
     - '&a/itemshop give <player> <amount>'
     - '&a/itemshop giveall <amount>'
+    - '&a/itemshop reload'
   open:
     shopNotFound: '&cThe shop you''re trying to open doesn''t exist.'
   give:
@@ -20,3 +21,4 @@ commands:
   giveall:
     usage: '&cUsage: /itemshop giveall <amount>'
     done: '&aYou gave %coins to %players players'
+  reload: '&aPlugin reloaded'

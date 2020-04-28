@@ -15,13 +15,12 @@ public class Command implements CommandExecutor {
     
     private final ItemShopsPlugin plugin = ItemShopsPlugin.getInstance();
     
-    private final Message helpMessage;
     private final List<SubCommand> commands;
     
     @Override
     public boolean onCommand(CommandSender sender, org.bukkit.command.Command command, String label, String[] args) {
         if (args.length == 0) {
-            helpMessage.send(sender);
+            plugin.getMessages().getMessage("commands.help").format().send(sender);
             return true;
         }
         
